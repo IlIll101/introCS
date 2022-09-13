@@ -18,6 +18,10 @@
 ;6a
 (define q2 1)
 (define r 7)
+;6b
+(define b1 -3)
+(define n 5)
+(- b n 8)
 ;7a
 (define d1 -5)
 (define s -2)
