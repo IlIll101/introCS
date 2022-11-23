@@ -8,9 +8,11 @@
 
 ;Newtons method to approximate the sqrt(k)
 (define (approx k)
-  (define x 10.0)
+  (define x 10)
   (for/list ([i 9])
     (set! x (tngntln k x))
     )
   (display x)
   )
+
+(approx 69)
